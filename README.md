@@ -101,16 +101,12 @@ Find jobs that share skills with a candidate.
 Find candidates connected to jobs in a particular domain.
 
 ## Screenshots
-
-[add screenshots here]
-
-## Demo
-
-YOUR_DEPLOYED_URL
-
-## Video Demo
-
-YOUR_VIDEO_LINK
+![alt text](<Screenshot (89).png>)
+![alt text](<Screenshot (85).png>)
+![alt text](<Screenshot (86).png>)
+![alt text](<Screenshot (87).png>)
+![alt text](<Screenshot (88).png>)
+![alt text](<Screenshot (90).png>)
 =======
 # careergraph-cognodb
 >>>>>>> 24ccc41af5eb0d34e43c2220d750323ffa9ee17d
