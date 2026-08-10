@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CareerGraph
 
 A graph-powered career discovery application built with Flask, Python and CognoDB.
@@ -110,3 +111,6 @@ YOUR_DEPLOYED_URL
 ## Video Demo
 
 YOUR_VIDEO_LINK
+=======
+# careergraph-cognodb
+>>>>>>> 24ccc41af5eb0d34e43c2220d750323ffa9ee17d
