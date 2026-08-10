@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerGraph — CognoDB Demo</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">WEXA AI • COGNODB TAKE-HOME</p>
+      <h1>CareerGraph</h1>
+      <p class="subtitle">Explore how people, skills, jobs, companies and domains connect.</p>
+    </div>
+    <div id="status" class="status">Checking database…</div>
+  </header>
+
+  <main class="container">
+    <section class="stats" id="stats"></section>
+
+    <section class="panel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">PERSONALIZED DISCOVERY</p>
+          <h2>Find jobs through your skills</h2>
+        </div>
+        <select id="candidateSelect"></select>
+      </div>
+      <div id="recommendations" class="cards loading">Loading recommendations…</div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">GRAPH EXPLORER</p>
+          <h2>Browse the job graph</h2>
+        </div>
+        <input id="search" type="search" placeholder="Search jobs, companies or domains">
+      </div>
+      <div id="jobs" class="job-grid loading">Loading jobs…</div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
