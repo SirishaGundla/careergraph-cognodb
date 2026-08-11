@@ -4,7 +4,6 @@ from flask import Flask, jsonify, render_template, request
 from dotenv import load_dotenv
 from neo4j import GraphDatabase
 
-
 # Load environment variables from .env
 load_dotenv()
 
@@ -15,12 +14,10 @@ URI = os.getenv("COGNODB_URI")
 USER = os.getenv("COGNODB_USER", "cognodb")
 PASSWORD = os.getenv("COGNODB_PASSWORD")
 
-
 if not URI or not PASSWORD:
     raise RuntimeError(
         "Set COGNODB_URI and COGNODB_PASSWORD in your .env file."
     )
-
 
 # Create CognoDB driver
 driver = GraphDatabase.driver(
@@ -53,6 +50,7 @@ def home():
 def health():
     try:
         run_query("RETURN 1 AS ok")
+
         return jsonify({
             "ok": True
         })
