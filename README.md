@@ -634,10 +634,11 @@ http://127.0.0.1:5000/api/health
 https://careergraph-cognodb-mxg4.onrender.com
 
 ---
+## 18. Screen Recording
 
-# 18. Screen Recording
-
+[Watch the CareerGraph CognoDB Screen Recording](./cognoDB.mp4)
 <video controls src="cognoDB.mp4" title="Title"></video>
+[Watch the CareerGraph CognoDB Screen Recording](./cognoDB.mp4)
 
 ---
 
